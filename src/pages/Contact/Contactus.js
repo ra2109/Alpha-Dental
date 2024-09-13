@@ -11,8 +11,8 @@ const Contactus = () => {
             <section className='section-bg section-common contact-section'>
                 <Navbar />
                 <SectionTitle 
-                    title="Contact Us"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                    title="Book Your Appointment"
+                    description="Make an Appointment Today for curing all your dental problems here at Alpha Dental. Fill up the form below and get all your queries sorted with the team of expert dentists."
                 />
             </section>
             <section className='contact-form-area' data-aos="fade-up" data-aos-duration="2000">

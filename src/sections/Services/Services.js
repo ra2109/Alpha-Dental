@@ -12,12 +12,12 @@ const Services = () => {
         <section className='service-section pt-100 pb-70' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 col-sm-6">
-                        <SectionTitle title="Feel amazing about your oral health" subTitle="Services"/>
+                    <div className="col-lg-12 col-sm-6">
+                        <SectionTitle title=" Explore Our Main Service" subTitle="Our Services"/>
                     </div>
-                    <div className="col-lg-6 col-sm-6">
+                    {/* <div className="col-lg-6 col-sm-6">
                         <p className='service-title-text'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="row">
@@ -28,7 +28,7 @@ const Services = () => {
             </div>
 
             <div className="services-link text-center">
-                <Link to='/'>
+                <Link to='/singleService'>
                     View all service list
                     <BsFillArrowRightCircleFill/>
                 </Link>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Expert.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import expertImg from '../../assets/expert.png';
+import expertImg from '../../assets/20240907_144534.jpg';
 
 const Expert = () => {
     return (
@@ -13,8 +13,8 @@ const Expert = () => {
                         <div className="expert-text">
                             <SectionTitle 
                                 subTitle="EXPERTS IN DENTAL"
-                                title="Top-notch dentistry, from Seattle's top dentists."
-                                description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts"
+                                title="Top-notch dentistry, from City's top dentist."
+                                description="Our vision is to be Gaya's top dental care provider renowned for excellence, patient-centered care, and cutting-edge technology. We aim to offer a welcoming environment where all ages receive top-quality dental treatment."
                             />
 
                             <ul>
@@ -28,7 +28,11 @@ const Expert = () => {
                                 </li>
                                 <li>
                                     <BsFillCheckCircleFill />
-                                    Discount on all dental treatment
+                                    Transparent and Customer Focused
+                                </li>
+                                <li>
+                                    <BsFillCheckCircleFill />
+                                    Pedigree and Experience
                                 </li>
                             </ul>
                         </div>

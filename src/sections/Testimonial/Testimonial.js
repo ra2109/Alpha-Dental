@@ -13,19 +13,31 @@ const Testimonial = () => {
     const testimonails = [
         {
             'img': imgOne,
-            'name': 'Robert Fox',
+            'name': 'Benazir Shaheen',
             'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgTwo,
-            'name': 'Albert Flores',
+            'name': 'Dr. Rashid Moiz Khan',
             'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgThree,
-            'name': 'Bessie Cooper',
+            'name': 'Preeti Singh',
+            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
+        },
+        {
+            'img': imgTwo,
+            'name': 'Roshan AFtab',
+            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
+        },
+        {
+            'img': imgOne,
+            'name': 'Quaiser Masood Siddique',
             'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
@@ -34,7 +46,8 @@ const Testimonial = () => {
             'name': 'Bessie Cooper',
             'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
-        }
+        },
+    
     ]
 
     // slider
@@ -43,7 +56,7 @@ const Testimonial = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         responsive: [
             {
               breakpoint: 1024,
@@ -56,7 +69,7 @@ const Testimonial = () => {
               breakpoint: 767,
               settings: {
                 slidesToShow: 2,
-                initialSlide: 2
+                initialSlide: 3
               }
             },
             {
@@ -73,15 +86,15 @@ const Testimonial = () => {
         <section className='testimonail-section section-bg section-common pt-100 pb-70' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
-                        <SectionTitle 
+                    <div className="col-lg-12">
+                        <SectionTitle
                         subTitle="TESTIMONIAL"
-                        title="What people have said about us"
+                        title="What Our Patient Say About Us . . ."
                         />
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                         <p className="pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts </p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <Slider {...settings} className="testimoni-slider">

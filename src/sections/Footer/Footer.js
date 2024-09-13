@@ -12,11 +12,11 @@ const Footer = () => {
     const footerMenu = [
         {
             'name' : 'About Us',
-            'link' : '/'
+            'link' : '/about'
         },
         {
             'name' : 'Dental Services',
-            'link' : '/'
+            'link' : '/services'
         },
         {
             'name' : 'Dentist',
@@ -24,11 +24,11 @@ const Footer = () => {
         },
         {
             'name' : 'Blogs',
-            'link' : '/'
+            'link' : '/blogs'
         },
         {
             'name' : 'FAQs',
-            'link' : '/'
+            'link' : '/blogs'
         }
     ];
 
@@ -64,7 +64,7 @@ const Footer = () => {
                         <div className="social-logo">
                             <p>Follow us on</p>
                             <ul>
-                                <li><a href="https://www.facebook.com/profile.php?id=61565232038062"><FaFacebookF/></a></li>
+                                <li><a href="https://www.facebook.com/alphadentalclinicgaya/"><FaFacebookF/></a></li>
                                 <li><a href="/"><FaTwitter/></a></li>
                                 <li><a href="/"><FaInstagram/></a></li>
                             </ul>

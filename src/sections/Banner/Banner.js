@@ -9,6 +9,7 @@ import shapeOne from '../../assets/banner/vector_01.png';
 import shapeTwo from '../../assets/banner/vector_02.png';
 import shapeThree from '../../assets/banner/vector_03.png';
 import shapeFour from '../../assets/banner/pattern.png';
+import banner_1 from '../../assets/banner/IMG_7059_1.JPG';
 
 const Banner = () => {
 
@@ -21,7 +22,7 @@ const Banner = () => {
                             <div className="col-lg-6">
                                 <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
                                     <h1>Entrust your smile to professionals</h1>
-                                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                                    <h4>The Smile you desire and the care you deserve come experience at <b>ALPHA DENTAL</b><b/></h4>
 
                                     <div className="banner-bottom">
                                         <div className="theme-btn">
@@ -44,15 +45,15 @@ const Banner = () => {
                             <div className="col-lg-6">
                                 <div className="banner-img-area" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                                     <div className="banner-img">
-                                        <img src={bannerImg} alt="banner model" />
+                                        <img src={banner_1} alt="banner model" />
                                     </div>
                                     <div className='info-box'>
                                         <div className="info-img">
                                             <img src={doctorImg} alt="doctor" />
                                         </div>
                                         <div className='info-text'>
-                                            <p>Dr. Zainab Malka Khurshid</p>
-                                            <p><small>Consultant</small></p>
+                                            <h1>Dr. Zainab Khurshid</h1>
+                                            <h3>Dental Surgeon</h3>
                                         </div>
                                     </div>  
 
