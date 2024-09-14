@@ -16,10 +16,10 @@ const Emergency = () => {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="emergency-text">
-                            <SectionTitle subTitle="Dental 24H Emergency" title="Gentle, friendly treatment from our locally practice." description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."/>
+                            <SectionTitle subTitle="Dental 24H Emergency" title="Hygenic, Friendly Treatment From Our Locally Practice." description="At Alpha Dental Clinic, there is a team of experienced dentists who are well-prepared to handle any dental emergency that comes their way. With state-of-the-art facilities and a commitment to patient health, we are available for emergency dental care in Alpha Dental Clinic. Don’t suffer in silence,reach out for help when you need it most, and let the experts at Alpha Dental Clinic restore your smile."/>
 
                             <div className="theme-btn">
-                                <Link to='/'>Book an appointment</Link>
+                                <Link to='/contact'>Book an appointment</Link>
                             </div>
                         </div>
                     </div>

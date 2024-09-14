@@ -45,7 +45,7 @@ const Footer = () => {
         },
         {
             'title': 'Clinic Address',
-            'info': 'Nagmatia Road , Opposite A.R.Palace. Gaya , Bihar',
+            'info': 'Nagmatia Road,Opp A.R.Palace. Gaya,Bihar',
             'icon': location
         }
     ]

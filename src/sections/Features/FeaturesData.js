@@ -11,8 +11,8 @@ const featuresData = [
     },
     {
         'icon': iconTwo,
-        'title': 'Insurance accepted',
-        'description': 'We’re in network with major insurers like Delta Dental, Aetna, and Cigna.'
+        'title': 'Transparent & Customer Focused',
+        'description': 'We take pride in offering dental expertise in a patient focused friendly and comfortable environment.'
     },
     {
         'icon': iconThree,
@@ -21,7 +21,7 @@ const featuresData = [
     },
     {
         'icon': iconFour,
-        'title': 'No judgment ever',
+        'title': 'No Judgment Ever',
         'description': 'From floss bosses to sweet tooths, every mouth is welcome.'
     }
 ]
