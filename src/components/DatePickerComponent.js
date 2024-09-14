@@ -1,29 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css'; // Import default styles
 
-const DatePickerComponent = () => {
-  // Initialize state with a default date
-  const [startDate, setStartDate] = useState(new Date());
-
-  // Function to handle date changes
-  const handleChange = (date) => {
-    setStartDate(date);
-  };
-
+const DatePickerComponent = ({ selected, onChange }) => {
   return (
-    <div >
-      <div>
-       
-        <DatePicker
-          selected={startDate}
-          onChange={handleChange}
-          dateFormat="MMMM d, yyyy"
-          // className="date-picker-input"
-        />
-      </div>
+    <div>
+      <DatePicker
+      placeholderText='Select any Date'
+        selected={selected}
+        onChange={onChange}
+        dateFormat="MMMM d, yyyy"
+        className="date-picker-input"
+      />
     </div>
   );
 };
 
 export default DatePickerComponent;
+

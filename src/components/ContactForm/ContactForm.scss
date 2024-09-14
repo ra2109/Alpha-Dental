@@ -44,3 +44,12 @@
         height: 150px !important;
     }
 }
+.form-group.has-error .form-control {
+    border-color: red;
+  }
+  
+  .error-text {
+    color: red;
+    margin-top: 5px;
+  }
+  
