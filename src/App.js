@@ -13,6 +13,8 @@ import DentalFilling from './pages/DentalFilling';
 import CrownAndBridges from './pages/CrownAndBridges';
 import Periodontics from './pages/Periodontics';
 import ScrollToTop from './components/ScrollToTop';
+import GumTreatment from './pages/GumTreatment';
+import TeethWhitening from './pages/TeethWhitening';
 
 
 // 'Crown And Bridges': '/crown-and-bridges',
@@ -39,9 +41,9 @@ function App() {
       <Route path="/implants" element={<Implants />} />
       <Route path="/periodontics" element={<Periodontics />} />
       <Route path="/dental-fillings" element={<DentalFilling />} />
-      <Route path="/teeth-whitening" element={<Services />} />
+      <Route path="/teeth-whitening" element={<TeethWhitening />} />
       <Route path="/tooth-Extractions" element={<ToothExtractionsSurgeries />} />
-      <Route path="/gum-Treatments" element={<Services/>} />
+      <Route path="/gum-Treatments" element={<GumTreatment/>} />
       <Route path="/crown-and-bridges" element={<CrownAndBridges/>} />
     </Routes>
     </>

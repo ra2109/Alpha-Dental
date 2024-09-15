@@ -5,13 +5,13 @@ import Gallery from '../sections/Gallery/Gallery';
 import ServiceBanner from '../sections/ServiceBanner/ServiceBanner';
 import Symptoms from '../sections/Symptoms/Symptoms';
 import Appointment from '../sections/Appointment/Appointment';
-import DentalFillingBanner from '../sections/ServiceBanner/DentalFillingBanner';
+import GumTreatmentBanner from '../sections/ServiceBanner/GumTreatmentBanner';
 
-const DentalFilling = () => {
+const GumTreatment = () => {
     return (
         <>
             <Navbar />
-            <DentalFillingBanner />
+            <GumTreatmentBanner />
             <Symptoms />
             {/* <Gallery /> */}
             <Appointment />
@@ -20,4 +20,4 @@ const DentalFilling = () => {
     );
 };
 
-export default DentalFilling;
+export default GumTreatment;

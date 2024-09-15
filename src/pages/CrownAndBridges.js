@@ -5,12 +5,13 @@ import Gallery from '../sections/Gallery/Gallery';
 import ServiceBanner from '../sections/ServiceBanner/ServiceBanner';
 import Symptoms from '../sections/Symptoms/Symptoms';
 import Appointment from '../sections/Appointment/Appointment';
+import CrownAndBridgesBanner from '../sections/ServiceBanner/CrownAndBridgesBanner';
 
 const CrownAndBridges = () => {
     return (
         <>
             <Navbar />
-            <ServiceBanner />
+            <CrownAndBridgesBanner />
             <Symptoms />
             {/* <Gallery /> */}
             <Appointment />
