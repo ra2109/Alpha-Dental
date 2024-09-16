@@ -15,10 +15,10 @@ const AboutBanner = () => {
                             <div className="col-lg-5">
                                 <div className="about-banner-text">
                                     <h2>About Us</h2>
-                                    <p>We want you to feel amazing about your oral wellness. Not just twice a year, but every time you take a bite, tell a joke, laugh, or share a kiss.</p>
-
+                                    <p>At Alpha Dental Clinic, our mission is to enhance your oral health and overall well-being through comprehensive, personalized dental care. We strive to create beautiful, healthy smiles for life by combining advanced dental technology with a compassionate and patient-centered approach.</p>
+                                    <p>We want you to feel amazing about your oral wellness. Not just twice a year, but every time you take a bite, tell a joke, laugh.</p>
                                     <div className="theme-btn">
-                                        <Link to='/'>Contact Us</Link>
+                                        <Link to='/contact'>Contact Us</Link>
                                     </div>
                                 </div>
                             </div>

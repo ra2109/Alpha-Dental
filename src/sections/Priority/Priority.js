@@ -19,7 +19,7 @@ const Priority = () => {
                             <SectionTitle 
                                 subTitle="OUR PRIORITY" 
                                 title="Our clients are our priority"
-                                description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                                description="At the core of our business is a steadfast commitment to our clients. We prioritize your needs and strive to exceed your expectations with every interaction. Our goal is to deliver exceptional service that reflects our dedication to your satisfaction. Your success is our top priority, and we are here to support and elevate your experience every step of the way."
                             />
 
                             <div className="theme-btn">
