@@ -14,9 +14,9 @@ const GumTreatmentBanner = () => {
                             <div className="col-lg-5 col-md-6">
                                 <div className="service-banner-text" data-aos="fade-up" data-aos-duration="2000">
                                     <h2>Gum Treatment</h2>
-                                    <p>Root canals have gotten a bad reputation, but us dentists don’t know why! These are the types of treatments that actually make you feel better!</p>
+                                    <p>Gum Treatment have gotten a bad reputation, but us dentists don’t know why! These are the types of treatments that actually make you feel better!</p>
                                     <div className="theme-btn">
-                                        <Link to="/">Book an appointment</Link>
+                                        <Link to="/contact">Book an appointment</Link>
                                     </div>
                                 </div>
                             </div>

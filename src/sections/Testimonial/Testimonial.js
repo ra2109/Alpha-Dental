@@ -12,41 +12,41 @@ const Testimonial = () => {
 
     const testimonails = [
         {
-            'img': imgOne,
+            'img': imgThree,
             'name': 'Benazir Shaheen',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'description' : 'I recently had a root canal treatment (RCT) at Alpha Dental with Dr. Zainab, and it was a positive experience. The procedure was thorough, and Dr. Zainab explained each step clearly, easing my anxiety. The staff was professional and the clinic was well-equipped. Post-treatment, I experienced minimal discomfort, and follow-up care was excellent. I highly recommend Dr. Zainab for anyone needing RCT.',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgTwo,
             'name': 'Dr. Rashid Moiz Khan',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'description' : 'I had an excellent experience at Alpha Dental with Dr. Zainab for root canal treatment (RCT), scaling, and teeth whitening. Dr. Zainab was professional and thorough, explaining each procedure clearly. The clinic was clean and well-equipped, and the staff was friendly. Post-treatment, I felt no discomfort. I highly recommend Dr. Zainab for comprehensive dental care!',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgThree,
-            'name': 'Preeti Singh',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Dr Preeti Singh',
+            'description' : 'I visited Alpha Dental in pain and received excellent care. She quickly diagnosed the issue and performed a root canal, along with scaling and whitening. The treatment relieved my discomfort, and she explained everything clearly. The staff was friendly, and the clinic was clean. I left feeling much better and satisfied with my smile. Highly recommend!',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgTwo,
-            'name': 'Roshan AFtab',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Ahsan Kamal',
+            'description' : 'I got my wisdom tooth extracted and that even within a few minutes, also painlessly with the help of advanced equipment they have at their clinic.',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
-            'img': imgOne,
-            'name': 'Quaiser Masood Siddique',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'img': imgThree,
+            'name': 'Archana Ranjan',
+            'description' : 'Recently i visited Alpha Dental Clinic Gaya, Bihar and got the best dental treatment in town."Dr.Zainab mam is an excellent dentist and a thorough professional. She has a remarkable ability to inspire confidence in her patients.She is very detailed and transparent in explaining the problems as also their resolution.overall the dentist is super cool because she explains everything to me. Dr. Zainab mam has a very good team. The Clinic is very well managed and is exceptionally clean and hygienic which is commendable. It has modern equipment and devices. Overall, a positive experience that I highly recommend to other. Thank you mam',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
-        {
-            'img': imgOne,
-            'name': 'Bessie Cooper',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
-            'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
-        },
+        // {
+        //     'img': imgOne,
+        //     'name': 'Bessie Cooper',
+        //     'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+        //     'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
+        // },
     
     ]
 

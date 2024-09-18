@@ -14,9 +14,9 @@ const CrownAndBridgesBanner = () => {
                             <div className="col-lg-5 col-md-6">
                                 <div className="service-banner-text" data-aos="fade-up" data-aos-duration="2000">
                                     <h2>Crown And Bridges</h2>
-                                    <p>Root canals have gotten a bad reputation, but us dentists don’t know why! These are the types of treatments that actually make you feel better!</p>
+                                    <p>Crowns and bridges are key dental restorations. <b>Crowns</b> cover and protect damaged or weakened teeth, restoring their shape and function, while <b>bridges</b> replace one or more missing teeth by anchoring artificial teeth to adjacent healthy ones. Crowns are custom-made and fit over a prepared tooth, while bridges span gaps, helping to maintain oral health and function.</p>
                                     <div className="theme-btn">
-                                        <Link to="/">Book an appointment</Link>
+                                        <Link to="/contact">Book an appointment</Link>
                                     </div>
                                 </div>
                             </div>

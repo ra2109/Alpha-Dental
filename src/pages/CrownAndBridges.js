@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Footer from '../sections/Footer/Footer';
 import Gallery from '../sections/Gallery/Gallery';
 import ServiceBanner from '../sections/ServiceBanner/ServiceBanner';
-import Symptoms from '../sections/Symptoms/Symptoms';
+import Symptoms from '../sections/Symptoms/CrownAndBridgesSymptoms';
 import Appointment from '../sections/Appointment/Appointment';
 import CrownAndBridgesBanner from '../sections/ServiceBanner/CrownAndBridgesBanner';
 
@@ -12,7 +12,7 @@ const CrownAndBridges = () => {
         <>
             <Navbar />
             <CrownAndBridgesBanner />
-            <Symptoms />
+            <Symptoms/>
             {/* <Gallery /> */}
             <Appointment />
             <Footer />

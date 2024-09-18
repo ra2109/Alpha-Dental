@@ -13,9 +13,9 @@ const BracesBanner = () => {
                             <div className="col-lg-5 col-md-6">
                                 <div className="service-banner-text" data-aos="fade-up" data-aos-duration="2000">
                                     <h2>Braces</h2>
-                                    <p>Root canals have gotten a bad reputation, but us dentists don’t know why! These are the types of treatments that actually make you feel better!</p>
+                                    <p>Braces are used to correct misaligned teeth and bite issues. They consist of brackets, wires, and bands that gradually shift teeth into proper alignment. Braces can improve dental function and appearance, and are suitable for both children and adults. Regular adjustments are needed for effective results.</p>
                                     <div className="theme-btn">
-                                        <Link to="/">Book an appointment</Link>
+                                        <Link to="/contact">Book an appointment</Link>
                                     </div>
                                 </div>
                             </div>

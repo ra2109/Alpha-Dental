@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Footer from '../sections/Footer/Footer';
 import Gallery from '../sections/Gallery/Gallery';
 import ServiceBanner from '../sections/ServiceBanner/ServiceBanner';
-import Symptoms from '../sections/Symptoms/Symptoms';
+import Symptoms from '../sections/Symptoms/BracesSymptoms';
 import Appointment from '../sections/Appointment/Appointment';
 import BracesBanner from '../sections/ServiceBanner/BracesBanner';
 
