@@ -33,6 +33,9 @@ jobs:
     - name: Push
            
       uses: s0/git-publish-subdir-action@develop
+      with:
+        github_token: ${{ secrets.PAT_TOKEN }}  # Use your personal access token
+        publish_dir: ./build  # Your build directory
       env:
         REPO: self
         BRANCH: build # The branch name where you want to push the assets
