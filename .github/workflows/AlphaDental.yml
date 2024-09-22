@@ -63,7 +63,13 @@ jobs:
         fi
 
         git rm -rf .
-        cp -r build/* .
+         if [ -d "build" ] && [ "$(ls -A build)" ]; then
+          # Copy new build files
+          cp -r build/* . || echo "No new build files to copy"
+        else
+          echo "Build directory is empty or does not exist. Aborting."
+          exit 1
+        fi
         git add .
         # Commit changes (if any)
         git commit -m "Deploy to build branch" || echo "No changes to commit"
