@@ -50,7 +50,17 @@ jobs:
       run: |
         git config user.name "ra2109"
         git config user.email "aftabroshan02@gmail.com"
-        git checkout -B build origin/build
+        git fetch origin
+
+        # Check if the build branch exists
+        if git show-ref --verify --quiet refs/remotes/origin/build; then
+          # If it exists, check it out
+          git checkout -B build origin/build
+        else
+          # If it doesn't exist, create a new build branch
+          git checkout -b build
+        fi
+
         git rm -rf .
         cp -r build/* .
         git add .
