@@ -30,6 +30,7 @@ jobs:
     - name: Run build
       run: npm run build
 
+
     # - name: Deploy to Hostinger
     #   run: |
     #       rsync -avz --delete -e "ssh -p 65002 u499450812@89.117.27.252" build/ alphadentalgaya.com:/path/to/public_html/
@@ -63,8 +64,8 @@ jobs:
         fi
 
         git rm -rf .
-         if [ -d "build" ] && [ "$(ls -A build)" ]; then
-          # Copy new build files
+        if [ -d "build" ] && [ "$(ls -A build)" ]; then
+           # Copy new build files
           cp -r build/* . || echo "No new build files to copy"
         else
           echo "Build directory is empty or does not exist. Aborting."
