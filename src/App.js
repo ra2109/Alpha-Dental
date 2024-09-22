@@ -16,7 +16,6 @@ import ScrollToTop from './components/ScrollToTop';
 import GumTreatment from './pages/GumTreatment';
 import TeethWhitening from './pages/TeethWhitening';
 
-
 // 'Crown And Bridges': '/crown-and-bridges',
 // 'Braces': '/braces',
 // 'Implants': '/implants',
