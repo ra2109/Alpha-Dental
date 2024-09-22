@@ -40,6 +40,7 @@ jobs:
         git config user.name "ra2109"
         git config user.email "aftabroshan02@gmail.com"
         git config --global user.email "aftabroshan02@gmail.com"
+        git config pull.rebase true
   
     - name: Push    
       uses: s0/git-publish-subdir-action@develop
