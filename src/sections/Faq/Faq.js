@@ -70,7 +70,7 @@ const Faq = () => {
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">   
-                            The natural state of teeth underneath the crowns of a dental bridge is still vulnerable to tooth decay and other oral health issues. 
+                            The natural state of teeth underneath the crown of a dental bridge is still vulnerable to tooth decay and other oral health issues. 
                             </div>
                             </div>
                         
