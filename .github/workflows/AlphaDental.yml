@@ -50,6 +50,7 @@ jobs:
       run: |
         git config user.name "ra2109"
         git config user.email "aftabroshan02@gmail.com"
+        git reset --hard
         git fetch origin
 
         # Check if the build branch exists
