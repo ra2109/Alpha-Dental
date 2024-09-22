@@ -50,7 +50,7 @@ jobs:
       run: |
         git config user.name "ra2109"
         git config user.email "aftabroshan02@gmail.com"
-        git checkout -b build || git checkout build
+        git checkout -b build
         git config pull.rebase false
         git pull --rebase origin build 
         git rm -rf .
