@@ -82,5 +82,7 @@ jobs:
     #     # Commit changes (if any)
     #     git commit -m "Deploy to build branch" || echo "No changes to commit"
     #     # Push changes
-    #     git push --force https://${{ secrets.PAT_TOKEN }}@github.com/ra2109/Alpha-Dental.git build
+    #     git push --force https://${{ secrets.PAT_TOKEN }}@github.com/ra2109/Alpha-Dental.git 
+    
+    
       
