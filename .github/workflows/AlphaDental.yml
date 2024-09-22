@@ -52,6 +52,7 @@ jobs:
         git config user.email "aftabroshan02@gmail.com"
         git checkout -b build
         git rm -rf .
+        cp -r build/* .
         git add .
         # Commit changes (if any)
         git commit -m "Deploy to build branch" || echo "No changes to commit"
