@@ -27,7 +27,8 @@ const Appointment = () => {
                             <SectionTitle 
                             subTitle="BOOK APPOINTMENT"
                             title="Care at Alpha Dental is pleasure"
-                            description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual"/>
+                            //  description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual"
+                             />
                             <ContactForm />
                         </div>
                     </div>
