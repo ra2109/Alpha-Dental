@@ -51,10 +51,9 @@ jobs:
         git config user.name "ra2109"
         git config user.email "aftabroshan02@gmail.com"
         git checkout -b build
-        git config pull.rebase false
-        git pull --rebase origin build 
         git rm -rf .
-        cp -r build/* .
         git add .
-        git commit -m "Deploy to build branch"
+        # Commit changes (if any)
+        git commit -m "Deploy to build branch" || echo "No changes to commit"
+        # Push changes
         git push --force https://${{ secrets.PAT_TOKEN }}@github.com/ra2109/Alpha-Dental.git build
