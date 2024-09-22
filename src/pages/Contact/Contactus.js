@@ -10,6 +10,7 @@ const Contactus = () => {
         <>
             <section className='section-bg section-common contact-section'>
                 <Navbar />
+                
                 <SectionTitle 
                     title="Book Your Appointment"
                     description="Make an Appointment Today for curing all your dental problems here at Alpha Dental. Fill up the form below and get all your queries sorted with the team of expert dentists."
