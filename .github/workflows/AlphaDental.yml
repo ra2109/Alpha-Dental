@@ -32,7 +32,7 @@ jobs:
 
     # - name: Deploy to Hostinger
     #   run: |
-    #       rsync -avz --delete -e "ssh -p 65002 u499450812@89.117.27.252" build/ alphadentalgaya.com:/path/to/public_html/
+    #   rsync -avz --delete -e "ssh -p 65002 u499450812@89.117.27.252" build/ alphadentalgaya.com:/path/to/public_html/
     
     - name: Configure Git
       run: |
