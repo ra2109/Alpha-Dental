@@ -9,7 +9,7 @@ on:
       - main
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -48,8 +48,8 @@ jobs:
 
     - name: Push to Build Branch
       run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
+        git config user.name "ra2109"
+        git config user.email "aftabroshan02@gmail.com"
         git checkout -b build
         git rm -rf .
         cp -r build/* .
