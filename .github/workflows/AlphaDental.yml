@@ -7,10 +7,6 @@ on:
   pull_request:
     branches:
       - main
-  permissions:
-    contents: 
-      - write 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,15 +29,27 @@ jobs:
     # - name: Deploy to Hostinger
     #   run: |
     #       rsync -avz --delete -e "ssh -p 65002 u499450812@89.117.27.252" build/ alphadentalgaya.com:/path/to/public_html/
-    - name: Push
+    
+    # - name: Push
            
-      uses: s0/git-publish-subdir-action@develop
-      with:
-        github_token: ${{ secrets.PAT_TOKEN }}  # Use your personal access token
-        publish_dir: ./build  # Your build directory
-      env:
-        REPO: self
-        BRANCH: build # The branch name where you want to push the assets
-        FOLDER: build # The directory where your assets are generated
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-        MESSAGE: "Build: ({sha}) {msg}" # The commit message
+    #   uses: s0/git-publish-subdir-action@develop
+    #   with:
+    #     github_token: ${{ secrets.PAT_TOKEN }}  # Use your personal access token
+    #     publish_dir: ./build  # Your build directory
+    #   env:
+    #     REPO: self
+    #     BRANCH: build # The branch name where you want to push the assets
+    #     FOLDER: build # The directory where your assets are generated
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+    #     MESSAGE: "Build: ({sha}) {msg}" # The commit message
+
+    - name: Push to Build Branch
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git checkout -b build
+        git rm -rf .
+        cp -r build/* .
+        git add .
+        git commit -m "Deploy to build branch"
+        git push --force https://${{ secrets.PAT_TOKEN }}@github.com/ra2109/Alpha-Dental.git build
