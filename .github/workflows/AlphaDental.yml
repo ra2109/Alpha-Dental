@@ -31,4 +31,4 @@ jobs:
       run: npm run build
     - name: Deploy to Hostinger
       run: |
-          ssh -o StrictHostKeyChecking=no ykar2019@gmail.com@alphadentalgaya.com "mkdir -p /path/to/public_html && rsync -avz --delete build/ /path/to/public_html/"
+          ssh -o StrictHostKeyChecking=no ftp://alphadentalgaya.com@alphadentalgaya.com "mkdir -p /path/to/public_html && rsync -avz --delete build/ /path/to/public_html/"
