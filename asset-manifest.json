@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3459854c.css",
+    "main.js": "/static/js/main.3a1b5771.js",
+    "static/js/787.58c23086.chunk.js": "/static/js/787.58c23086.chunk.js",
+    "static/media/20240907_144534.jpg": "/static/media/20240907_144534.4c7b368b21c54285c336.jpg",
+    "static/media/11.jpg": "/static/media/11.d824f48166b9c9d6388b.jpg",
+    "static/media/smile.jpg": "/static/media/smile.3c24f74b305f6bf59bcb.jpg",
+    "static/media/8.jpg": "/static/media/8.fc9d266a22746093a9be.jpg",
+    "static/media/9.jpg": "/static/media/9.9eca3d3399fa6513fa73.jpg",
+    "static/media/10.jpg": "/static/media/10.97c95acc63c898b5c3e9.jpg",
+    "static/media/1.png": "/static/media/1.7ee5d44283b510ee1579.png",
+    "static/media/priority.png": "/static/media/priority.7d14df9bb9541b9ba080.png",
+    "static/media/IMG_7059_1.JPG": "/static/media/IMG_7059_1.47ae8cb2f477355150d6.JPG",
+    "static/media/emer_new.JPG": "/static/media/emer_new.e368d7752ea71a5f7639.JPG",
+    "static/media/banner_1.png": "/static/media/banner_1.9e7ce5cd85273d5458c9.png",
+    "static/media/2.png": "/static/media/2.51032910e1b5fdcd45be.png",
+    "static/media/banner_2.png": "/static/media/banner_2.13a0b9b4236e02e2ea04.png",
+    "static/media/3.png": "/static/media/3.4d7af73cd9b24524f404.png",
+    "static/media/4.png": "/static/media/4.8946b1f7e13e8ae23545.png",
+    "static/media/anesthetic.png": "/static/media/anesthetic.b3fcc9342bfcf7ca417c.png",
+    "static/media/tooth-whitening.png": "/static/media/tooth-whitening.cb512605f77842e8785b.png",
+    "static/media/tooth-extraction.png": "/static/media/tooth-extraction.bf658a1c50d76b25a33a.png",
+    "static/media/periodontal.png": "/static/media/periodontal.90b478e1890d73fb211a.png",
+    "static/media/braces.png": "/static/media/braces.76f7097c3195ce9e17b3.png",
+    "static/media/pattern_02.png": "/static/media/pattern_02.b4699407d2ecbc775edb.png",
+    "static/media/dental-filling.png": "/static/media/dental-filling.ca2c8f549c6139baa8de.png",
+    "static/media/8.png": "/static/media/8.4a31807b8e2303e07108.png",
+    "static/media/bridge.png": "/static/media/bridge.c8974873a40d9693ef2e.png",
+    "static/media/alpha_dental.jpg": "/static/media/alpha_dental.d2fa3b6791970a847af9.jpg",
+    "index.html": "/index.html",
+    "main.3459854c.css.map": "/static/css/main.3459854c.css.map",
+    "main.3a1b5771.js.map": "/static/js/main.3a1b5771.js.map",
+    "787.58c23086.chunk.js.map": "/static/js/787.58c23086.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3459854c.css",
+    "static/js/main.3a1b5771.js"
+  ]
+}
