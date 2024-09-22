@@ -1,5 +1,5 @@
 
-# AlphaDental - Solution for All Dental Problems
+# AlphaDental - Solution For All Your Dental Problems
 
 **AlphaDental** is a Modern Responsive Website for Dental Clinic. It is built
 with ReactJS, Bootstrap, and Sass. Dental clinic can use
