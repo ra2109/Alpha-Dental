@@ -32,7 +32,7 @@ const ServicesData = [
     {
         'icon': iconFive,
         'title': 'Braces',
-        'description': 'races are orthodontic devices designed to straighten misaligned teeth and correct bite issues. They use brackets, wires, and bands to gradually shift teeth into proper alignment. Available in metal, ceramic, and clear options, braces typically require 18 to 36 months of treatment.',
+        'description': 'Braces are orthodontic devices designed to straighten misaligned teeth and correct bite issues. They use brackets, wires, and bands to gradually shift teeth into proper alignment. Available in metal, ceramic, and clear options, braces typically require 18 to 36 months of treatment.',
     },
     {
         'icon': iconSix,
