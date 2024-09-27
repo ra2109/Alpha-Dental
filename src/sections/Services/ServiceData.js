@@ -37,7 +37,7 @@ const ServicesData = [
     {
         'icon': iconSix,
         'title': 'Teeth Whitening',
-        'description': 'Teeth whitening is a cosmetic dental treatment that lightens the color of your teeth. Using either in-office procedures or at-home products, it removes stains and discoloration caused by factors like coffee, tobacco, and aging.',
+        'description': 'Teeth whitening is a cosmetic dental treatment that lightens the color of your teeth. Using in-office procedures, it removes stains and discoloration caused by factors like coffee, tobacco, and aging.',
     },
     {
         'icon': iconSeven,
