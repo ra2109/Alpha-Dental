@@ -12,7 +12,7 @@ const ToothExtractionsSurgeries = () => {
             <Navbar />
             <ServiceBanner />
             <Symptoms />
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>

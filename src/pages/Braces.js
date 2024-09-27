@@ -13,7 +13,7 @@ const Braces = () => {
             <Navbar />
             <BracesBanner />
             <Symptoms />
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>

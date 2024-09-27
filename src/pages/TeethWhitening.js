@@ -14,7 +14,7 @@ const TeethWhitening = () => {
             <Navbar />
             <TeethWhiteningBanner />
             <Symptoms />
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>

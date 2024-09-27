@@ -43,7 +43,7 @@ const Symptoms = () => {
                 <SectionTitle 
                     subTitle="Symptoms"
                     title="Sign and symptoms you need root canal"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                    // description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
                 />
 
                 <div className="row">

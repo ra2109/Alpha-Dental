@@ -13,7 +13,7 @@ const DentalFilling = () => {
             <Navbar />
             <DentalFillingBanner />
             <Symptoms />
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>

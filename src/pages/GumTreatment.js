@@ -13,7 +13,7 @@ const GumTreatment = () => {
             <Navbar />
             <GumTreatmentBanner />
             <Symptoms />
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>

@@ -13,7 +13,7 @@ const Implants = () => {
             <Navbar />
             <ImplantBanner />
             <Symptoms />
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>

@@ -13,7 +13,7 @@ const Periodontics = () => {
             <Navbar />
             <PeriodonticsBanner />
             <Symptoms />
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>

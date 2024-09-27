@@ -13,7 +13,7 @@ const CrownAndBridges = () => {
             <Navbar />
             <CrownAndBridgesBanner />
             <Symptoms/>
-            {/* <Gallery /> */}
+            <Gallery />
             <Appointment />
             <Footer />
         </>
