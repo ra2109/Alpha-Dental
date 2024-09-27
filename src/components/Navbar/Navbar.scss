@@ -103,5 +103,17 @@
                 }
             }
         }
+        
     }
+}
+.dropdown-menu {
+    display: none; // Hide by default
+    color: $color-blue;
+    -webkit-text-fill-color:$color-black;
+}
+.dropdown-menu.show {
+    display: block; // Show when 'show' class is added
+    color: $color-blue;
+    -webkit-text-fill-color:$color-blue;
+
 }

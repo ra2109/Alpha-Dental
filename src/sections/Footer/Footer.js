@@ -16,11 +16,11 @@ const Footer = () => {
         },
         {
             'name' : 'Dental Services',
-            'link' : '/services'
+            'link' : '/singleservice'
         },
         {
             'name' : 'Dentist',
-            'link' : '/'
+            'link' : '/singleservice'
         },
         {
             'name' : 'Blogs',
@@ -75,8 +75,13 @@ const Footer = () => {
                             <p>Quick Links</p>
                             <ul>
                                 {
-                                    footerMenu.map(singleMenu => <li><Link to="/">{singleMenu.name}</Link></li>)
+                                    footerMenu.map(singleMenu => 
+                                    <li>
+                                        <Link to={singleMenu.link}>{singleMenu.name}</Link>
+                                    </li>
+                                        )
                                 }
+
                             </ul>
                         </div>
                     </div>
